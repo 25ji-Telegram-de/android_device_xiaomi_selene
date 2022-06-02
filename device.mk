@@ -471,6 +471,7 @@ PRODUCT_PACKAGES += \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6768.rc \
+    init.mt6768.power.rc \
     init.mt6768.usb.rc \
     init.target.rc \
     init.project.rc \
