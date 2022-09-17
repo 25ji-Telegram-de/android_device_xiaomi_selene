@@ -183,6 +183,12 @@ vendor/etc/camera/Roboto_Medium.ttf
 vendor/etc/camera/sr_params.xml
 vendor/etc/camera/watermark_font_2300_3199.dat
 
+# Charger
+bin/kpoc_charger
+etc/init/kpoc_charger.rc
+lib/libshowlogo.so
+lib/libsysenv_system.so
+
 # Consumerir
 vendor/lib/hw/consumerir.mt6768.so
 vendor/lib64/hw/consumerir.mt6768.so
@@ -331,6 +337,7 @@ vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so|570cf84
 # Graphics (Mapper) - from selene-user 13 TP1A.220624.014 V14.0.6.0.TKUMIXM release-keys
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so|a34c01e85b201ba1b8e6f0c980f7601e8479a6fb
 vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so|68ecf8668a52a2493133b7c472d9c3ccada2f0c1
+
 # IMS (System)
 bin/vtservice
 etc/init/init.vtservice.rc
