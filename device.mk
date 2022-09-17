@@ -134,7 +134,11 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5.vendor \
     android.hardware.camera.device@3.6 \
     android.hardware.camera.device@3.6.vendor
-    
+
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend
+
 # Disable Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
