@@ -180,7 +180,7 @@ vendor/etc/camera/sr_params.xml
 vendor/etc/camera/watermark_font_2300_3199.dat
 
 # Camera Utils - from selene-user 13 TP1A.220624.014 V14.0.6.0.TKUMIXM release-keys
-vendor/lib64/libmtkcam_stdutils.so|0b24a831af03d46e0258cae0d4788a7ee1ff1bbc
+vendor/lib64/libmtkcam_stdutils.so|0b24a831af03d46e0258cae0d4788a7ee1ff1bbc|257526b9e61463f3e2ccce6844b22db6aa19bb23
 
 # Charger
 bin/kpoc_charger

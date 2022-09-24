@@ -36,7 +36,7 @@ function blob_fixup {
             "$PATCHELF" --replace-needed "libutils.so" "libutils-v30.so" "$2"
             ;;
         vendor/lib64/libmtkcam_stdutils.so)
-            "$PATCHELF" --replace-needed "libutils.so" "libutils-v30.so" "$2"
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             ;;
         vendor/lib*/hw/audio.primary.mt6768.so)
             "${PATCHELF}" --add-needed "libshim_audio.so" "${2}"
