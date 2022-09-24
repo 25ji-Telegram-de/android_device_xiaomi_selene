@@ -463,6 +463,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RcsService
 
+# VNDK
+PRODUCT_PACKAGES += \
+    libutils-v32
+
 # VNDK v30 Copy Files
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v30/arm64/arch-arm-armv8-a/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutils-v30.so \
