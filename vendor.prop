@@ -1,6 +1,9 @@
 # Apex
 ro.apex.updatable=true
 
+# Async MTE
+arm64.memtag.process.system_server=off
+
 # APU
 debug.mtk_tflite.target_nnapi=29
 ro.vendor.mtk_nn.option=A,B,C,D,E,F,G,Z
