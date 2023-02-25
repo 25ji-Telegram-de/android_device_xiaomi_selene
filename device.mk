@@ -128,6 +128,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.a2dp@1.0.vendor
 
+# BesLoudness
+PRODUCT_PACKAGES += \
+    BesLoudness
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4 \
