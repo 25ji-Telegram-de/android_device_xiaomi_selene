@@ -82,7 +82,7 @@ on property:sys.boot_completed=1
     write /sys/devices/system/cpu/cpufreq/policy4/scaling_governor "schedplus"
 
     # Report max frequency to unity tasks and miHoYo games
-    write /proc/sys/kernel/sched_lib_name "com.miHoYo.,libunity.so" 
+    write /proc/sys/kernel/sched_lib_name "libunity.so,com.miHoYo.,libfb.so,liblogic.so,libssgamesdkcronet.so,libil2cpp.so,com.activision." 
     write /proc/sys/kernel/sched_lib_mask_force 255
 
     # disable mtk fpsgo
