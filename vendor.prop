@@ -131,6 +131,9 @@ ro.lmk.swap_free_low_percentage=20
 ro.lmk.upgrade_pressure=40
 ro.lmk.use_minfree_levels=true
 
+# Logd
+ro.logd.kernel=false
+
 # Logs
 debug.als.logs=1
 debug.svi.logs=1
