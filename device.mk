@@ -112,6 +112,10 @@ PRODUCT_PACKAGES += \
     libpiex_shim \
     libshim_utils
 
+# Certs
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,system/ca-certificates/files/,$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts)
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
