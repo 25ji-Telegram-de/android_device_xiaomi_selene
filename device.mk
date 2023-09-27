@@ -604,3 +604,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Use FUSE passthrough
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.fuse.passthrough.enable=true
+
+# Watchdog
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hw_timeout_multiplier=6
