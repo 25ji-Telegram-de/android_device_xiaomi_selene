@@ -17,9 +17,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # A/B
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.1-service \
-    android.hardware.boot@1.1-mtkimpl \
-    android.hardware.boot@1.1-mtkimpl.recovery
+    android.hardware.boot@1.2-impl \
+    android.hardware.boot@1.2-impl.recovery \
+    android.hardware.boot@1.2-service
 
 PRODUCT_PACKAGES += \
     update_engine \
