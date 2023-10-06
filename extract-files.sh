@@ -104,6 +104,12 @@ function blob_fixup {
         vendor/lib*/hw/android.hardware.thermal@2.0-impl.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             ;;
+        vendor/lib*/libwvhidl.so)
+            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+            ;;
+        vendor/lib*/mediadrm/libwvdrmengine.so)
+            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+            ;;
     esac
 }
 
