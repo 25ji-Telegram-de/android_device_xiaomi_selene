@@ -116,9 +116,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libsuspend
 
-PRODUCT_PACKAGES += \
-    libshim_showlogo
-
 # Display
 TARGET_SCREEN_DENSITY := 440
 TARGET_SCREEN_WIDTH := 1080
@@ -183,9 +180,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
-
-PRODUCT_PACKAGES += \
-    android.hardware.health@2.0
 
 # HIDL
 PRODUCT_PACKAGES += \
