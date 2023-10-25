@@ -114,6 +114,7 @@ PRODUCT_PACKAGES += \
 
 # Charger
 PRODUCT_PACKAGES += \
+    charger_res_images_vendor \
     libsuspend
 
 # Display
