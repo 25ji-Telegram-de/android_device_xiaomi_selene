@@ -439,7 +439,7 @@ PRODUCT_PACKAGES += \
     hostapd
 
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service-lazy.selene
+    android.hardware.wifi-service-lazy.selene
 
 PRODUCT_PACKAGES += \
     libkeystore-wifi-hidl \
