@@ -507,7 +507,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlaySelene \
     wpa_supplicant \
     hostapd \
-    android.hardware.wifi@1.0-service-lazy
+    android.hardware.wifi-service
 
 # SKU-specific properties
 PRODUCT_COPY_FILES += \
