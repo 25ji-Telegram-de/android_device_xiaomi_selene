@@ -124,7 +124,7 @@ TARGET_SCREEN_HEIGHT := 2340
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4-service.clearkey
+    android.hardware.drm-service.clearkey
 
 PRODUCT_PACKAGES += \
     libmockdrmcryptoplugin
