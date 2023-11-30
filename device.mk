@@ -400,7 +400,8 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Shims
 PRODUCT_PACKAGES += \
     libshim_audio \
-    libshim_beanpod
+    libshim_beanpod \
+    libshim_sensors
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
