@@ -158,6 +158,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Frame rate override
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.enable_frame_rate_override=false
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
