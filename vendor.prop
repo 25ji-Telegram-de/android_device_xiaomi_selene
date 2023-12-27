@@ -1,3 +1,6 @@
+# Audio
+ro.config.vc_call_vol_steps=11
+
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 bluetooth.profile.sap.server.enabled=true
