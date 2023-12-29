@@ -254,6 +254,7 @@ persist.sys.sf.color_mode=0
 persist.sys.sf.color_saturation=1.1
 persist.sys.sf.native_mode=2
 ro.config.avoid_gfx_accel=true
+ro.surface_flinger.clear_slots_with_set_layer_buffer=true
 ro.surface_flinger.primary_display_orientation=ORIENTATION_0
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 service.sf.prime_shader_cache=0
