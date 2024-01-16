@@ -1,0 +1,9 @@
+# firmware - from selene-user 11 RP1A.200720.011 V12.5.19.0.RKUMIXM release-keys
+
+lk.img;AB
+logo.bin:logo.img;AB
+md1img.img;AB
+scp.img;AB
+spmfw.img;AB
+sspm.img;AB
+tee.img;AB
