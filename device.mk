@@ -367,7 +367,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsensorndkbridge \
     android.hardware.sensors@2.0 \
-    android.hardware.sensors@2.0.vendor
+    android.hardware.sensors@2.0.vendor \
+    android.frameworks.sensorservice@1.0 \
+    android.frameworks.sensorservice@1.0.vendor
 
 # Thermal
 PRODUCT_PACKAGES += \
