@@ -68,9 +68,6 @@ function blob_fixup {
         vendor/lib*/hw/audio.usb.mt6768.so)
             "${PATCHELF}" --replace-needed "libalsautils.so" "libalsautils_legacy.so" "${2}"
 	    ;;
-        vendor/lib*/hw/dfps.mt6768.so)
-            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
-            ;;
         vendor/lib*/hw/vendor.mediatek.hardware.pq@2.6-impl.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             ;;
