@@ -1098,6 +1098,9 @@ on property:persist.odm.ril.oem.imei1=*
 on property:persist.odm.ril.oem.imei2=*
     setprop ro.ril.oem.imei2 ${persist.odm.ril.oem.imei2}
 
+    # STOP EATING MY BATTERY AFTER 100H OF UPTIME FUCK YOU
+    stop statsd
+
 service openad /system/vendor/bin/displayf_bin s 1
     user root
     group root system graphics
