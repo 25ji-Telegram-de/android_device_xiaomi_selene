@@ -519,6 +519,9 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
 
 PRODUCT_PACKAGES += \
+    libwifi-hal-wrapper
+
+PRODUCT_PACKAGES += \
     WifiOverlay \
     TetheringConfigOverlay \
     CarrierConfigOverlaySelene \
