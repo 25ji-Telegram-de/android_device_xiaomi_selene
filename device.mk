@@ -342,7 +342,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
     android.hardware.power@1.3 \
     android.hardware.power@1.3.vendor \
-    android.hardware.power-service.mediatek-libperfmgr
+    android.hardware.power-service.selene-libperfmgr
     
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/perf/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
