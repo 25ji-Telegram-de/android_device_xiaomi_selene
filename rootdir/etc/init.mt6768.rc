@@ -604,7 +604,7 @@ on boot
 on property:sys.boot_completed=1
     write /sys/power/pm_freeze_timeout 2000
     # initialize powerHAL when boot is completed
-    setprop vendor.mediatek.powerhal.init 1
+    setprop vendor.powerhal.init 1
 
 on property:sys.boot_completed=1
     # end boot time fs tune
