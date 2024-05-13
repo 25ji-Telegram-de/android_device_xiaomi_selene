@@ -416,11 +416,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
-# Seccomp
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
-    $(DEVICE_PATH)/configs/seccomp/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy
-
 # Sensors
 PRODUCT_PACKAGES += \
     libsensorndkbridge \

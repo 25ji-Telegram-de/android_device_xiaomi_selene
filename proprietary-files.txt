@@ -795,6 +795,8 @@ vendor/etc/ecc_list_preference.xml
 vendor/etc/factory.ini
 vendor/etc/fstb.cfg
 vendor/etc/mtk_omx_core.cfg
+vendor/etc/seccomp_policy/mediacodec.policy
+vendor/etc/seccomp_policy/mediaswcodec.policy
 vendor/etc/partition_permission.sh
 vendor/etc/slp_conf
 vendor/etc/smsdbvisitor.xml
