@@ -126,6 +126,7 @@ ro.lmk.critical_upgrade=true
 ro.lmk.downgrade_pressure=60
 ro.lmk.kill_heaviest_task=false
 ro.lmk.kill_timeout_ms=100
+ro.lmk.log_stats=false
 ro.lmk.psi_complete_stall_ms=70
 ro.lmk.swap_free_low_percentage=20
 ro.lmk.upgrade_pressure=40
