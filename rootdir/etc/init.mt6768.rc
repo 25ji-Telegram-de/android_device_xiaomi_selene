@@ -1219,7 +1219,7 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     group nfc
     disabled
 
-on property:ro.boot.product.hardware.sku=eos
+on property:ro.product.mod_device=eos
     start vendor.nfc_hal_service
     
 on property:persist.sys.MT6768.dt2w=0
