@@ -800,7 +800,6 @@ vendor/bin/kmsetkey
 vendor/bin/lbs_hidl_service
 vendor/bin/lib3a.ccu.dm
 vendor/bin/lib3a.ccu.pm
-vendor/bin/meta_tst
 vendor/bin/mmc_ffu
 vendor/bin/mmc_ffu_hynix
 vendor/bin/mmc_ffu_micron
