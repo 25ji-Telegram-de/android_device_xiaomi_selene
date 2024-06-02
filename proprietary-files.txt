@@ -1082,7 +1082,6 @@ vendor/bin/libccu_ov8856_ofilm_front_mipi_raw.pm
 vendor/bin/libccu_s5kjn1_ofilm_main_mipi_raw.dm
 vendor/bin/libccu_s5kjn1_ofilm_main_mipi_raw.pm
 vendor/bin/lsattr
-vendor/bin/meta_tst
 vendor/bin/misc_writer
 vendor/bin/mmc_ffu
 vendor/bin/mmc_ffu_hynix
