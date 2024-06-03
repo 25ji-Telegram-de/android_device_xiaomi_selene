@@ -20,6 +20,10 @@ bluetooth.profile.pbap.server.enabled=true
 
 # LMKD
 ro.lmk.kill_heaviest_task=true
+ro.lmk.use_psi=true
+ro.lmk.use_minfree_levels=false
+ro.lmk.thrashing_limit_decay=50
+ro.lmk.downgrade_pressure=30
 
 # SurfaceFlinger
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
