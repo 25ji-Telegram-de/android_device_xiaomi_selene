@@ -800,7 +800,7 @@ vendor/etc/init/mtk_agpsd_p.rc
 vendor/etc/init/mtk_pkm_service.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
-vendor/etc/init/networksetting.rc
+vendor/etc/init/networksetting.rc|cb8181c0732ffa91d1bee2785e0364b6948710c9
 vendor/etc/init/nvram_daemon.rc
 vendor/etc/init/vpud.rc
 vendor/etc/MNL_Config.xml
