@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/selene/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# include private signing keys
+-include vendor/niigo-priv/keys/keys.mk
+
 PRODUCT_NAME := lineage_selene
 PRODUCT_DEVICE := selene
 PRODUCT_MANUFACTURER := Xiaomi
