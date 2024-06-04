@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/selene/device.mk)
 # Inherit some common SuperiorOS stuff
 $(call inherit-product, vendor/superior/config/common.mk)
 
+# include private signing keys
+-include vendor/niigo-priv/keys/keys.mk
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2400
