@@ -266,11 +266,6 @@ PRODUCT_PACKAGES += \
     com.android.media.swcodec \
     libsfplugin_ccodec
 
-# Miku UI - Performance mode
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.perfmode=true \
-    ro.perf.cluster1=6
-
 # Net
 PRODUCT_PACKAGES += \
     libpcap.vendor
@@ -442,8 +437,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-miku
+    $(DEVICE_PATH)/overlay
 
 PRODUCT_PACKAGES += \
     ApertureOverlaySelene \

@@ -15,4 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/miku_selene.mk
+   $(LOCAL_DIR)/superior_selene.mk
+
+COMMON_LUNCH_CHOICES := \
+    superior_selene-userdebug \
+    superior_selene-eng
