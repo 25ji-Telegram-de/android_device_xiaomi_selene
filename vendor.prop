@@ -232,7 +232,6 @@ telephony.active_modems.max_count=2
 telephony.lteOnCdmaDevice=1
 
 # SurfaceFlinger
-debug.cpurend.vsync=false
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.phase_offset_threshold_for_next_vsync_ns=6100000
 debug.sf.late.sf.duration=30000000
