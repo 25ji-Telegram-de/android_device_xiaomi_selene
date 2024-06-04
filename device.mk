@@ -473,7 +473,6 @@ PRODUCT_PACKAGES += \
     init.mt6768.rc \
     init.mt6768.power.rc \
     init.mt6768.usb.rc \
-    init.target.rc \
     init.project.rc \
     init.sensor_1_0.rc \
     meta_init.connectivity.rc \
