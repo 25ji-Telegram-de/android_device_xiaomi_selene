@@ -138,21 +138,13 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4 \
     android.hardware.camera.provider@2.4.vendor \
-    android.hardware.camera.provider@2.5 \
     android.hardware.camera.provider@2.5.vendor \
-    android.hardware.camera.provider@2.6 \
     android.hardware.camera.provider@2.6.vendor \
-    android.hardware.camera.device@3.2 \
     android.hardware.camera.device@3.2.vendor \
-    android.hardware.camera.device@3.3 \
     android.hardware.camera.device@3.3.vendor \
-    android.hardware.camera.device@3.4 \
     android.hardware.camera.device@3.4.vendor \
-    android.hardware.camera.device@3.5 \
     android.hardware.camera.device@3.5.vendor \
-    android.hardware.camera.device@3.6 \
     android.hardware.camera.device@3.6.vendor
 
 # Camera
@@ -217,9 +209,7 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.0 \
     android.hardware.gnss@2.0.vendor \
-    android.hardware.gnss@2.1 \
     android.hardware.gnss@2.1.vendor
 
 # Health
@@ -366,25 +356,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0 \
     android.hardware.broadcastradio@1.1 \
-    android.hardware.radio@1.0 \
     android.hardware.radio@1.0.vendor \
-    android.hardware.radio@1.1 \
     android.hardware.radio@1.1.vendor \
-    android.hardware.radio@1.2 \
     android.hardware.radio@1.2.vendor \
-    android.hardware.radio@1.3 \
     android.hardware.radio@1.3.vendor \
-    android.hardware.radio@1.4 \
     android.hardware.radio@1.4.vendor \
-    android.hardware.radio@1.5 \
     android.hardware.radio@1.5.vendor \
-    android.hardware.radio.config@1.0 \
     android.hardware.radio.config@1.0.vendor \
-    android.hardware.radio.config@1.1 \
     android.hardware.radio.config@1.1.vendor \
-    android.hardware.radio.config@1.2 \
     android.hardware.radio.config@1.2.vendor \
-    android.hardware.radio.deprecated@1.0 \
     android.hardware.radio.deprecated@1.0.vendor
     
 # Recovery
@@ -409,7 +389,6 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     libsensorndkbridge \
-    android.hardware.sensors@2.0 \
     android.hardware.sensors@2.0.vendor \
     android.frameworks.sensorservice@1.0.vendor
 
