@@ -45,7 +45,6 @@ on charger
     chown system system /mnt/vendor/nvcfg
     chmod 0771 /mnt/vendor/nvcfg
     restorecon_recursive /mnt/vendor/nvcfg
-    write /sys/devices/platform/battery_meter/FG_daemon_log_level 7
     write /sys/bus/platform/devices/battery/FG_daemon_log_level 7
     # Permissions for System Server and daemons.
     chown system system /sys/power/autosleep
@@ -82,13 +81,6 @@ on fs
     mount_all /vendor/etc/fstab.mt6768 --early
 
 on post-fs
-    # boot perf. tune
-    write /proc/perfmgr/boost_ctrl/eas_ctrl/boot_boost "0 100"
-    write /proc/perfmgr/boost_ctrl/eas_ctrl/boot_boost "1 100"
-    write /proc/perfmgr/boost_ctrl/eas_ctrl/boot_boost "2 100"
-    write /proc/perfmgr/boost_ctrl/eas_ctrl/boot_boost "3 100"
-    write /proc/perfmgr/boost_ctrl/eas_ctrl/sched_stune_task_thresh 0
-
     chown radio system /proc/freqhopping/dramc
     chown radio system /proc/freqhopping/dumpregs
     chown radio system /proc/freqhopping/freqhopping_debug
@@ -287,10 +279,6 @@ on post-fs-data
     # Use uinput's default permission
     chown system net_bt_admin /dev/uinput
 
-    # HDMI
-    chown media system /dev/hdmitx
-    chmod 0664 /dev/hdmitx
-
     # ITO
     chmod 0777 /data/local/tmp
 
@@ -299,9 +287,6 @@ on post-fs-data
 
     # reverse charging
     chmod 0777 /sys/class/power_supply/usb/reverse_chg_otg
-
-    # ALMK
-    chmod 0440 /dev/mtk_almk
 
     # DISP
     chmod 0444 /dev/mtk_disp
@@ -417,9 +402,6 @@ on boot
     chown system system /sys/devices/system/cpu/rq-stats/avg_htasks_thresh
     chmod 0660 /sys/devices/system/cpu/rq-stats/avg_htasks_thresh
 
-    chown system /sys/module/mlog/parameters/do_mlog
-    chown system /sys/module/mlog/parameters/timer_intval
-
     chown root   radio  /sys/class/leds/lcd-backlight/duty
     chown root   radio  /sys/class/leds/lcd-backlight/div
     chown system system /sys/class/leds/lcd-backlight/trigger
@@ -432,12 +414,6 @@ on boot
 
     chown system system /sys/devices/platform/11012000.spi2/spi_master/spi2/spi2.0/authen_fd/performance
     chmod 0664 /sys/devices/platform/11012000.spi2/spi_master/spi2/spi2.0/authen_fd/performance
-
-    # permission for hibernation
-    chown radio system /sys/power/tuxonice
-    chown radio system /sys/power/tuxonice/do_hibernate
-    chmod 0770 /sys/power/tuxonice
-    chmod 0220 /sys/power/tuxonice/do_hibernate
 
     chown root root /sys/class/huaqin/interface/hw_info/lcm
     chmod 0666 /sys/class/huaqin/interface/hw_info/lcm
@@ -506,20 +482,10 @@ on boot
     chmod 0440 /proc/ppm/dump_cluster_2_dvfs_table
     chown system system /proc/ppm/root_cluster
     chmod 0660 /proc/ppm/root_cluster
-    chown system system /proc/ppm/policy/hica_variant
-    chmod 0660 /proc/ppm/policy/hica_variant
-    chown system system /proc/ppm/policy/hica_settings/L_ONLY_to_4L_LL/loading_hold_time
-    chmod 0660 /proc/ppm/policy/hica_settings/L_ONLY_to_4L_LL/loading_hold_time
 
     # CPU freq
-    chown system system /proc/cpufreq/cpufreq_limited_by_hevc
-    chmod 0660 /proc/cpufreq/cpufreq_limited_by_hevc
-    chown system system /proc/cpufreq/cpufreq_limited_max_freq_by_user
-    chmod 0660 /proc/cpufreq/cpufreq_limited_max_freq_by_user
     chown system system /proc/cpufreq/cpufreq_power_mode
     chmod 0660 /proc/cpufreq/cpufreq_power_mode
-    chown system system /proc/cpufreq/enable_hw_gov
-    chmod 0660 /proc/cpufreq/enable_hw_gov
 
     # perfmgr
     chown system system /proc/perfmgr/smart/hps_is_heavy
@@ -552,7 +518,6 @@ on boot
     chown root radio /proc/net/netfilter/nfnetlink_queue
 
     # WMT proc
-    chown shell system /proc/driver/wmt_dbg
     chown shell system /proc/driver/wmt_aee
 
     # device for EMCSMDLOGGER
@@ -574,19 +539,15 @@ on property:sys.boot_completed=1
 
 # Battery info
 on property:persist.vendor.mediatek.fg.disable=1
-    write /sys/devices/platform/battery_meter/FG_daemon_disable 1
     write /sys/bus/platform/devices/battery/FG_daemon_disable 1
 
 on property:persist.vendor.mediatek.fg.force25c=1
-    write /sys/devices/platform/battery_meter/FG_drv_force25c 1
     write /sys/bus/platform/devices/battery/Battery_Temperature 25
 
 on property:persist.vendor.mediatek.fg.force25c=0
-    write /sys/devices/platform/battery_meter/FG_drv_force25c 0
     write /sys/bus/platform/devices/battery/Battery_Temperature 65535
 
 on property:persist.vendor.mediatek.fg.log.enable=1
-    write /sys/devices/platform/battery_meter/FG_daemon_log_level 7
     write /sys/bus/platform/devices/battery/FG_daemon_log_level 7
     write /proc/sys/kernel/printk 8
 

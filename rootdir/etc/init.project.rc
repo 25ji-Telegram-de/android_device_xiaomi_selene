@@ -6,9 +6,6 @@ on init
     mkdir /mnt/media_rw/usbotg 0700 media_rw media_rw
     mkdir /storage/usbotg 0700 root root
 
-    mount ext4 /dev/block/platform/bootdevice/by-name/rescue /mnt/rescue noatime
-    restorecon_recursive /mnt/rescue
-
 on post-fs-data
     mkdir /data/vendor/nfc 0770 nfc nfc
     mkdir /data/vendor/secure_element 0770 nfc nfc
