@@ -93,6 +93,8 @@ void vendor_load_properties()
         set_device_props("21061119BI", "selene", "Redmi 10 Prime", "selene");
     } else if (hwsku == "eos_u") { // Redmi 10 2022 (NFC)
         set_device_props("22011119UY", "selene", "Redmi 10 2022", "eos");
+    } else if (hwsku == "eos_p") { // POCO unknown, fallback to eos props
+        set_device_props("21061119CG", "selene", "Redmi 10", "eos");
     } else if (hwsku == "eos") { // Redmi 10 (NFC)
         set_device_props("21061119DG", "selene", "Redmi 10", "eos");
     } else { // Redmi 10
