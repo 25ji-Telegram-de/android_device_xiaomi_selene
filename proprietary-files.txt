@@ -806,8 +806,6 @@ vendor/bin/mmc_ffu_hynix
 vendor/bin/mmc_ffu_micron
 vendor/bin/mnld|01ae207d89a3478e65302c912b5c942c030f8b53
 vendor/bin/mtk_agpsd
-vendor/bin/mtk_pkm_service
-vendor/bin/muxreport
 vendor/bin/netdagent
 vendor/bin/netdc
 vendor/bin/nvram_daemon
@@ -819,7 +817,6 @@ vendor/bin/wmt_loader
 vendor/etc/apdb/APDB_MT6768_S01__W2110
 vendor/etc/apdb/APDB_MT6768_S01__W2110_ENUM
 vendor/etc/device_features/selene.xml
-vendor/etc/init/bootperf.rc
 vendor/etc/init/camerahalserver.rc
 vendor/etc/init/dmc_core.rc
 vendor/etc/init/fuelgauged_init.rc
@@ -837,9 +834,7 @@ vendor/etc/init/init.wod.rc
 vendor/etc/init/init_connectivity.rc
 vendor/etc/init/lbs_hidl_service.rc
 vendor/etc/init/mtk_agpsd_p.rc
-vendor/etc/init/mtk_pkm_service.rc
 vendor/etc/init/mtkrild.rc
-vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/networksetting.rc|cb8181c0732ffa91d1bee2785e0364b6948710c9
 vendor/etc/init/nvram_daemon.rc
@@ -940,7 +935,6 @@ vendor/lib/libnvram_platform.so
 vendor/lib/libnvram_sec.so
 vendor/lib/libopus.so
 vendor/lib/libpixelflinger.so
-vendor/lib/libpkm.so
 vendor/lib/libpq_cust.so
 vendor/lib/libpq_cust_base.so
 vendor/lib/libpq_prot.so
@@ -1080,7 +1074,6 @@ vendor/lib64/libnvram_daemon_callback.so
 vendor/lib64/libnvram_platform.so
 vendor/lib64/libnvram_sec.so
 vendor/lib64/libpixelflinger.so
-vendor/lib64/libpkm.so
 vendor/lib64/libpq_cust.so
 vendor/lib64/libpq_cust_base.so
 vendor/lib64/libpq_prot.so
