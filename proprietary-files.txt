@@ -392,11 +392,13 @@ vendor/lib/egl/libGLES_mali.so
 vendor/lib/egl/libGLES_meow.so
 vendor/lib/egl/libMEOW_gift.so
 vendor/lib/egl/libMEOW_trace.so
+vendor/lib/hw/vulkan.mt6768.so
 vendor/lib/libOpenCL.so
 vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/egl/libGLES_meow.so
 vendor/lib64/egl/libMEOW_gift.so
 vendor/lib64/egl/libMEOW_trace.so
+vendor/lib64/hw/vulkan.mt6768.so
 vendor/lib64/libOpenCL.so
 
 # IMS (System)
@@ -864,6 +866,7 @@ vendor/etc/special_pws_channel.xml
 vendor/etc/vendor-apns-conf.xml
 vendor/lib/hw/awinic.audio.effect.so
 vendor/lib/AVCSecureVdecCA.so
+vendor/lib/VP9SecureVdecCA.so
 vendor/lib/arm.graphics-V1-ndk_platform.so
 vendor/lib/libDR.so
 vendor/lib/libDefaultFpsActor.so
@@ -872,6 +875,7 @@ vendor/lib/libHEVCdec_sa.ca7.android.so
 vendor/lib/libJpgEncPipe.so
 vendor/lib/libNoFpsActor.so
 vendor/lib/libQstAlgo.so
+vendor/lib64/libQstAlgo-K19S.so
 vendor/lib/libTEECommon.so
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
@@ -965,6 +969,7 @@ vendor/lib/libvt_custom.so
 vendor/lib/libwapi.so
 vendor/lib/libwo.so
 vendor/lib64/AVCSecureVdecCA.so
+vendor/lib64/VP9SecureVdecCA.so
 vendor/lib64/arm.graphics-V1-ndk_platform.so
 vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/lib3a.ae.core.so
