@@ -1,5 +1,15 @@
 # unpinned blobs from selene-user 11 RP1A.200720.011 V12.5.19.0.RKUMIXM release-keys
 
+# AAL
+vendor/lib/libaal_cust.so
+vendor/lib/libaal_key.so
+vendor/lib/libaal_mtk.so
+vendor/lib/libaalservice.so
+vendor/lib64/libaal_cust.so
+vendor/lib64/libaal_key.so
+vendor/lib64/libaal_mtk.so
+vendor/lib64/libaalservice.so
+
 # Audio
 vendor/lib/libaudio_param_parser-vnd.so
 vendor/lib/libaudiocompensationfilter_vendor.so
@@ -238,6 +248,17 @@ vendor/lib64/libwvhidl.so
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
 vendor/lib64/hw/hwcomposer.mt6768.so
 
+# ECC
+vendor/etc/ecc_list.xml
+vendor/etc/ecc_list_OP01.xml
+vendor/etc/ecc_list_OP02.xml
+vendor/etc/ecc_list_OP09.xml
+vendor/etc/ecc_list_OP12.xml
+vendor/etc/ecc_list_OP17.xml
+vendor/etc/ecc_list_OP18.xml
+vendor/etc/ecc_list_OP20.xml
+vendor/etc/ecc_list_preference.xml
+
 # Fingerprint
 vendor/lib64/hw/fingerprint.default.so
 vendor/lib64/hw/gf_fingerprint.default.so
@@ -327,6 +348,24 @@ vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin|9cd0d79cde76a59ddd8545b1621af1176c5f9
 
 # FM Radio
 -system_ext/lib64/libfmjni.so:system/lib64/libfmjni.so
+
+# GNSS
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_CT.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Columbia.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Peru.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Entel_Peru.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_KDDI.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Movistar_Peru.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_SK_Telecom.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_SoftBank.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Sprint.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_T-Mobile_US.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml
+vendor/etc/gnss/agps_profiles_conf2.xml
 
 # GPS
 vendor/bin/hw/android.hardware.gnss@2.1-service-mediatek
@@ -499,7 +538,6 @@ vendor/lib/vendor.mediatek.hardware.pq@2.4.so
 vendor/lib/vendor.mediatek.hardware.pq@2.5.so
 vendor/lib/vendor.mediatek.hardware.pq@2.6.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-vendor/lib64/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
@@ -636,6 +674,11 @@ vendor/lib64/hw/power.default.so
 # Radio
 vendor/lib/libvsim.so
 
+# Seccomp
+vendor/etc/seccomp_policy/mediacodec.policy
+vendor/etc/seccomp_policy/mediaextractor.policy
+vendor/etc/seccomp_policy/mediaswcodec.policy
+
 # Sensors
 vendor/lib64/hw/sensors.mt6768.so
 vendor/lib64/libsensor_custom.so
@@ -645,6 +688,52 @@ vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service
 vendor/bin/SoterProvisioningTool
 vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
 vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
+
+# SPN
+vendor/etc/spn-conf-op09.xml
+vendor/etc/virtual-spn-conf-by-efgid1.xml
+vendor/etc/virtual-spn-conf-by-efpnn.xml
+vendor/etc/virtual-spn-conf-by-efspn.xml
+vendor/etc/virtual-spn-conf-by-imsi.xml
+
+# TEE
+vendor/bin/teei_daemon
+vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
+vendor/etc/init/microtrust.rc
+vendor/lib/libteeclientjni.so
+vendor/lib/libteeclientjni@1.1.so
+vendor/lib64/libteeclientjni.so
+vendor/lib64/libteeclientjni@1.1.so
+vendor/lib64/libthha.so
+vendor/lib64/wechat.beanpod.so
+vendor/thh/ta/020b0000000000000000000000000000.ta
+vendor/thh/ta/020f0000000000000000000000000000.ta
+vendor/thh/ta/05120000000000000000000000000000.ta
+vendor/thh/ta/06090000000000000000000000000000.ta
+vendor/thh/ta/07060000000000000000000000007169.ta
+vendor/thh/ta/08010203000000000000000000000000.ta
+vendor/thh/ta/08020000000000000000000000007169.ta
+vendor/thh/ta/08030000000000000000000000000000.ta
+vendor/thh/ta/08070000000000000000000000008270.ta
+vendor/thh/ta/08110000000000000000000000000000.ta
+vendor/thh/ta/09010000000000000000000000000000.ta
+vendor/thh/ta/09030000000000000000000000008270.ta
+vendor/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta
+vendor/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta
+vendor/thh/ta/40188311faf343488db888ad39496f9a.ta
+vendor/thh/ta/5020170115e016302017012521300000.ta
+vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
+vendor/thh/ta/86f623f6a2994dfdb560ffd3e5a62c29.ta
+vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta
+vendor/thh/ta/9073f03a9618383bb1856eb3f990babd.ta
+vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta
+vendor/thh/ta/98fb95bcb4bf42d26473eae48690d7ea.ta
+vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta
+vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta
+vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta
+vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
+vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
+vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
 
 # Thermal
 vendor/bin/mi_thermald
@@ -664,6 +753,20 @@ vendor/etc/thermald-devices.conf
 # UDF - from from selene-user 12 SP1A.210812.016 V13.0.8.0.SKUMIXM release-keys
 vendor/lib/libudf.so|7cdbb5c5c616dbbec6afcd75d5cc41f915ff82d6
 vendor/lib64/libudf.so|66324571c3f69057b250bce3b0d58c386da0c25b
+
+# VoLTE
+vendor/bin/volte_imcb
+vendor/bin/volte_imsm_93
+vendor/bin/volte_md_status
+vendor/bin/volte_stack
+vendor/bin/volte_ua
+vendor/etc/init/init.volte_imcb.rc
+vendor/etc/init/init.volte_imsm_93.rc
+vendor/etc/init/init.volte_md_status.rc
+vendor/etc/init/init.volte_stack.rc
+vendor/etc/init/init.volte_ua.rc
+vendor/lib/libvolte_core_shr.so
+vendor/lib/libvolte_xdmc_shr.so
 
 # WiFi
 -vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
@@ -708,12 +811,6 @@ vendor/bin/muxreport
 vendor/bin/netdagent
 vendor/bin/netdc
 vendor/bin/nvram_daemon
-vendor/bin/teei_daemon
-vendor/bin/volte_imcb
-vendor/bin/volte_imsm_93
-vendor/bin/volte_md_status
-vendor/bin/volte_stack
-vendor/bin/volte_ua
 vendor/bin/vpud
 vendor/bin/vsimd
 vendor/bin/wfca
@@ -722,22 +819,6 @@ vendor/bin/wmt_loader
 vendor/etc/apdb/APDB_MT6768_S01__W2110
 vendor/etc/apdb/APDB_MT6768_S01__W2110_ENUM
 vendor/etc/device_features/selene.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_CT.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Columbia.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Peru.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Entel_Peru.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_KDDI.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Movistar_Peru.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_SK_Telecom.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_SoftBank.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Sprint.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_T-Mobile_US.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml
-vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml
-vendor/etc/gnss/agps_profiles_conf2.xml
 vendor/etc/init/bootperf.rc
 vendor/etc/init/camerahalserver.rc
 vendor/etc/init/dmc_core.rc
@@ -750,18 +831,11 @@ vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
 vendor/etc/init/init.md_apps.rc
 vendor/etc/init/init.udc_lib.rc
-vendor/etc/init/init.volte_imcb.rc
-vendor/etc/init/init.volte_imsm_93.rc
-vendor/etc/init/init.volte_md_status.rc
-vendor/etc/init/init.volte_stack.rc
-vendor/etc/init/init.volte_ua.rc
 vendor/etc/init/init.vtservice_hidl.rc
 vendor/etc/init/init.wfca.rc
 vendor/etc/init/init.wod.rc
 vendor/etc/init/init_connectivity.rc
 vendor/etc/init/lbs_hidl_service.rc
-vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
-vendor/etc/init/microtrust.rc
 vendor/etc/init/mtk_agpsd_p.rc
 vendor/etc/init/mtk_pkm_service.rc
 vendor/etc/init/mtkrild.rc
@@ -772,21 +846,9 @@ vendor/etc/init/nvram_daemon.rc
 vendor/etc/init/vpud.rc
 vendor/etc/Conf_MultipleTest.ini
 vendor/etc/MNL_Config.xml
-vendor/etc/ecc_list.xml
-vendor/etc/ecc_list_OP01.xml
-vendor/etc/ecc_list_OP02.xml
-vendor/etc/ecc_list_OP09.xml
-vendor/etc/ecc_list_OP12.xml
-vendor/etc/ecc_list_OP17.xml
-vendor/etc/ecc_list_OP18.xml
-vendor/etc/ecc_list_OP20.xml
-vendor/etc/ecc_list_preference.xml
 vendor/etc/factory.ini
 vendor/etc/fstb.cfg
 vendor/etc/mtk_omx_core.cfg
-vendor/etc/seccomp_policy/mediacodec.policy
-vendor/etc/seccomp_policy/mediaextractor.policy
-vendor/etc/seccomp_policy/mediaswcodec.policy
 vendor/etc/slp_conf
 vendor/etc/smsdbvisitor.xml
 vendor/etc/sn100u_bootup.pnscr
@@ -805,12 +867,7 @@ vendor/etc/sn100u_pnx_ndi.pnscr
 vendor/etc/sn100u_pnx_pcv.pnscr
 vendor/etc/sn100u_pnx_sst.pnscr
 vendor/etc/special_pws_channel.xml
-vendor/etc/spn-conf-op09.xml
 vendor/etc/vendor-apns-conf.xml
-vendor/etc/virtual-spn-conf-by-efgid1.xml
-vendor/etc/virtual-spn-conf-by-efpnn.xml
-vendor/etc/virtual-spn-conf-by-efspn.xml
-vendor/etc/virtual-spn-conf-by-imsi.xml
 vendor/lib/hw/awinic.audio.effect.so
 vendor/lib/AVCSecureVdecCA.so
 vendor/lib/arm.graphics-V1-ndk_platform.so
@@ -824,10 +881,6 @@ vendor/lib/libQstAlgo.so
 vendor/lib/libTEECommon.so
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
-vendor/lib/libaal_cust.so
-vendor/lib/libaal_key.so
-vendor/lib/libaal_mtk.so
-vendor/lib/libaalservice.so
 vendor/lib/libaedv.so
 vendor/lib/libakm.so
 vendor/lib/libasn1c_core.so
@@ -898,8 +951,6 @@ vendor/lib/libspeechparser_vendor.so
 vendor/lib/libssl-mdapp.so
 vendor/lib/libstorage_otp.so
 vendor/lib/libsysenv.so
-vendor/lib/libteeclientjni.so
-vendor/lib/libteeclientjni@1.1.so
 vendor/lib/libthha.so
 vendor/lib/libtranslator_mapi_v3.0.so
 vendor/lib/libtranslator_utils.so
@@ -911,8 +962,6 @@ vendor/lib/libvcodec_utility.so
 vendor/lib/libvcodecdrv.so
 vendor/lib/libverno.so
 vendor/lib/libviagpsrpc.so
-vendor/lib/libvolte_core_shr.so
-vendor/lib/libvolte_xdmc_shr.so
 vendor/lib/libvorbisidec.so
 vendor/lib/libvp8dec_sa.ca7.so
 vendor/lib/libvp8enc_sa.ca7.so
@@ -948,10 +997,6 @@ vendor/lib64/lib_bsscore.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
 vendor/lib64/lib_sr_models.so
-vendor/lib64/libaal_cust.so
-vendor/lib64/libaal_key.so
-vendor/lib64/libaal_mtk.so
-vendor/lib64/libaalservice.so
 vendor/lib64/libabfadp.so
 vendor/lib64/libacdk.so
 vendor/lib64/libaedv.so
@@ -1051,9 +1096,6 @@ vendor/lib64/libssl-mdapp.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libstrongswan.so
 vendor/lib64/libsysenv.so
-vendor/lib64/libteeclientjni.so
-vendor/lib64/libteeclientjni@1.1.so
-vendor/lib64/libthha.so
 vendor/lib64/libtlcWidevineModularDrm.so
 vendor/lib64/libtranslator_mapi_v3.0.so
 vendor/lib64/libtranslator_utils.so
@@ -1070,32 +1112,3 @@ vendor/lib64/libwapi.so
 vendor/lib64/libwifitest.so
 vendor/lib64/libwo.so
 vendor/lib64/libxmi_high_dynamic_range.so
-vendor/lib64/wechat.beanpod.so
-vendor/thh/ta/020b0000000000000000000000000000.ta
-vendor/thh/ta/020f0000000000000000000000000000.ta
-vendor/thh/ta/05120000000000000000000000000000.ta
-vendor/thh/ta/06090000000000000000000000000000.ta
-vendor/thh/ta/07060000000000000000000000007169.ta
-vendor/thh/ta/08010203000000000000000000000000.ta
-vendor/thh/ta/08020000000000000000000000007169.ta
-vendor/thh/ta/08030000000000000000000000000000.ta
-vendor/thh/ta/08070000000000000000000000008270.ta
-vendor/thh/ta/08110000000000000000000000000000.ta
-vendor/thh/ta/09010000000000000000000000000000.ta
-vendor/thh/ta/09030000000000000000000000008270.ta
-vendor/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta
-vendor/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta
-vendor/thh/ta/40188311faf343488db888ad39496f9a.ta
-vendor/thh/ta/5020170115e016302017012521300000.ta
-vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
-vendor/thh/ta/86f623f6a2994dfdb560ffd3e5a62c29.ta
-vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta
-vendor/thh/ta/9073f03a9618383bb1856eb3f990babd.ta
-vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta
-vendor/thh/ta/98fb95bcb4bf42d26473eae48690d7ea.ta
-vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta
-vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta
-vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta
-vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
-vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
-vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
