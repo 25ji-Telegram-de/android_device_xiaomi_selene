@@ -593,6 +593,7 @@ vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so
 vendor/lib64/vendor.mediatek.hardware.gpu@1.0.so
+vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
 vendor/lib64/vendor.mediatek.hardware.log@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.1.so
@@ -693,10 +694,9 @@ vendor/bin/gsm0710muxd
 vendor/bin/initprop_bin
 vendor/bin/jpegtool
 vendor/bin/kmsetkey
+vendor/bin/lbs_hidl_service
 vendor/bin/lib3a.ccu.dm
 vendor/bin/lib3a.ccu.pm
-vendor/bin/md_monitor
-vendor/bin/md_monitor_ctrl
 vendor/bin/meta_tst
 vendor/bin/mmc_ffu
 vendor/bin/mmc_ffu_hynix
@@ -759,7 +759,7 @@ vendor/etc/init/init.vtservice_hidl.rc
 vendor/etc/init/init.wfca.rc
 vendor/etc/init/init.wod.rc
 vendor/etc/init/init_connectivity.rc
-vendor/etc/init/md_monitor.rc
+vendor/etc/init/lbs_hidl_service.rc
 vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 vendor/etc/init/microtrust.rc
 vendor/etc/init/mtk_agpsd_p.rc
@@ -926,6 +926,7 @@ vendor/lib/libwapi.so
 vendor/lib/libwo.so
 vendor/lib64/AVCSecureVdecCA.so
 vendor/lib64/arm.graphics-V1-ndk_platform.so
+vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/lib3a.ae.core.so
 vendor/lib64/lib3a.ae.so
 vendor/lib64/lib3a.af.core.so
