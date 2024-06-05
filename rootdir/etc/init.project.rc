@@ -102,7 +102,7 @@ on post-fs-data
     chmod 0666  /dev/sar
     #modify sar Authority  by luozeng at 2021.3.30 end
 
-service mmc_ffu /vendor/bin/mmc_ffu do /vendor/bin/KMDD60018M-B320_P09.bin /dev/block/mmcblk0 15 09 02
+service mmc_ffu /vendor/bin/mmc_ffu do /vendor/bin/64GB_FW_HW_forFFU.BIN  /dev/block/mmcblk0 9b 00000d0c 0000060c
     class main
     user root
     group system
