@@ -220,9 +220,13 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 ODM_MANIFEST_SKUS += \
-    eos
+    eos \
+    eos_u \
+    eos_p
 
 ODM_MANIFEST_EOS_FILES := $(DEVICE_PATH)/manifest_eos.xml
+ODM_MANIFEST_EOS_U_FILES := $(DEVICE_PATH)/manifest_eos_u.xml
+ODM_MANIFEST_EOS_P_FILES := $(DEVICE_PATH)/manifest_eos_p.xml
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
