@@ -526,10 +526,6 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag
 
-# RcsService
-PRODUCT_PACKAGES += \
-    RcsService
-
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.mediatek
