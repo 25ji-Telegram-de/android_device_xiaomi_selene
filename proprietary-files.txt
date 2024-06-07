@@ -845,7 +845,6 @@ vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/etc/apdb/APDB_MT6768_S01__W2110
 vendor/etc/apdb/APDB_MT6768_S01__W2110_ENUM
-vendor/etc/device_features/selene.xml
 vendor/etc/init/camerahalserver.rc
 vendor/etc/init/dmc_core.rc
 vendor/etc/init/fuelgauged_init.rc
