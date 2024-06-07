@@ -736,7 +736,22 @@ vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
 vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
 
 # Thermal
+vendor/bin/hw/android.hardware.thermal@2.0-service.mtk|50c620260514b7f6866a25940339a5bd254be88a
 vendor/bin/mi_thermald
+vendor/bin/thermal
+vendor/bin/thermal_manager
+vendor/bin/thermalloadalgod
+vendor/etc/.tp/.ht120.mtc
+vendor/etc/.tp/.thermal_policy_00
+vendor/etc/.tp/.thermal_policy_03
+vendor/etc/.tp/.thermal_policy_05
+vendor/etc/.tp/.thermal_policy_08
+vendor/etc/.tp/thermal.conf
+vendor/etc/.tp/thermal.off.conf
+vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc
+vendor/etc/init/init.thermal.rc
+vendor/etc/init/init.thermal_manager.rc
+vendor/etc/init/init.thermalloadalgod.rc
 vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
@@ -749,6 +764,13 @@ vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermal-youtube.conf
 vendor/etc/thermald-devices.conf
+vendor/lib/hw/android.hardware.thermal@2.0-impl.so
+vendor/lib/libthermalalgo.so
+vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
+
+# Thermal-Hardware
+vendor/lib/hw/thermal.mt6768.so
+vendor/lib64/hw/thermal.mt6768.so
 
 # UDF - from from selene-user 12 SP1A.210812.016 V13.0.8.0.SKUMIXM release-keys
 vendor/lib/libudf.so|7cdbb5c5c616dbbec6afcd75d5cc41f915ff82d6
