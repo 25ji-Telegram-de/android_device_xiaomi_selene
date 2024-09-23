@@ -10,6 +10,7 @@ vendor/lib/libaudioloudc.so
 vendor/lib/libaudioprimarydevicehalifclient.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libaudio_param_parser-vnd.so
+vendor/lib/libalsautils.so:vendor/lib/libalsautils-v30.so
 vendor/lib64/libaudiocompensationfilterc.so
 vendor/lib64/libaudiocompensationfilter_vendor.so
 vendor/lib64/libaudiocomponentenginec.so
@@ -21,6 +22,7 @@ vendor/lib64/libaudioloudc.so
 vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiotoolkit_vendor.so
 vendor/lib64/libaudio_param_parser-vnd.so
+vendor/lib64/libalsautils.so:vendor/lib64/libalsautils-v30.so
 
 # Audio-Hardware
 vendor/lib/hw/audio.primary.mt6768.so
