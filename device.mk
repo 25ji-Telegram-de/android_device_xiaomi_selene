@@ -344,10 +344,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0 \
     android.hardware.sensors@2.0.vendor
 
-# Symbols
-PRODUCT_PACKAGES += \
-    libshim_vtservice
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
@@ -372,7 +368,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_audio \
     libshim_beanpod \
-    libshim_showlogo
+    libshim_showlogo \
+    libshim_vtservice
                               
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
