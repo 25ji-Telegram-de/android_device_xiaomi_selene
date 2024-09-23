@@ -183,6 +183,9 @@ vendor/etc/camera/Roboto_Medium.ttf
 vendor/etc/camera/sr_params.xml
 vendor/etc/camera/watermark_font_2300_3199.dat
 
+# Camera Utils - from selene-user 13 TP1A.220624.014 V14.0.6.0.TKUMIXM release-keys
+vendor/lib64/libmtkcam_stdutils.so|0b24a831af03d46e0258cae0d4788a7ee1ff1bbc
+
 # Charger
 bin/kpoc_charger
 etc/init/kpoc_charger.rc
@@ -760,7 +763,6 @@ vendor/lib64/libmtkcam_pipeline_fbm.so
 vendor/lib64/libmtkcam_prerelease.so
 vendor/lib64/libmtkcam_rsc.so
 vendor/lib64/libmtkcam_scenariorecorder.so
-vendor/lib64/libmtkcam_stdutils.so
 vendor/lib64/libmtkcam_streamutils.so
 vendor/lib64/libmtkcam_synchelper.so
 vendor/lib64/libmtkcam_sysutils.so
