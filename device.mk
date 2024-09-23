@@ -358,7 +358,9 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-service
                                 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/xiaomi
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -422,7 +424,7 @@ PRODUCT_PACKAGES += \
     
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.selene
+    android.hardware.light-service.xiaomi
 
 # NFC stack (AOSP)
 PRODUCT_COPY_FILES += \
