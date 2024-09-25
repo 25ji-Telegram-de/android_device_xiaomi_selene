@@ -58,7 +58,6 @@ PRODUCT_PACKAGES += \
     libnbaio_mono \
     libaudiofoundation \
     libaudiofoundation.vendor \
-    libtinycompress.vendor
 
 PRODUCT_PACKAGES += \
     MtkInCallService
@@ -112,15 +111,13 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    libbtconfigstore \
-    libbluetooth_audio_session.vendor \
+    libbluetooth_audio_session \
     android.hardware.bluetooth.a2dp@1.0 \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.a2dp@1.0.vendor
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
     android.hardware.camera.provider@2.4 \
     android.hardware.camera.provider@2.4.vendor \
     android.hardware.camera.provider@2.5 \
@@ -165,7 +162,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:64 \
     android.hardware.drm@1.0-service-lazy \
-    android.hardware.drm@1.3-service.clearkey \
     android.hardware.drm@1.0 \
     android.hardware.drm@1.0.vendor \
     android.hardware.drm@1.1 \
@@ -362,7 +358,6 @@ PRODUCT_PACKAGES += \
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
-    android.hardware.thermal@2.0-impl \
     android.hardware.thermal@2.0 \
     android.hardware.thermal@2.0.vendor
 
@@ -413,7 +408,6 @@ PRODUCT_PACKAGES += \
     factory_init.rc \
     init.ago.rc \
     init.connectivity.rc \
-    init.mi_thermald.rc \
     init.modem.rc \
     init.mt6768.rc \
     init.mt6768.usb.rc \
@@ -510,7 +504,6 @@ PRODUCT_COPY_FILES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.1-service.selene \
-    android.hardware.usb.gadget@1.1-service.selene \
     android.hardware.usb@1.0 \
     android.hardware.usb@1.0.vendor \
     android.hardware.usb@1.1 \
