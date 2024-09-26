@@ -303,6 +303,10 @@ PRODUCT_PACKAGES += \
     libmtkperf_client_vendor \
     libmtkperf_client
 
+PRODUCT_PACKAGES += \
+    vendor.mediatek.hardware.mtkpower@1.0.vendor \
+    vendor.mediatek.hardware.mtkpower@1.1.vendor
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0 \
