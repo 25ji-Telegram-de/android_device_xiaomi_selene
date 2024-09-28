@@ -955,6 +955,10 @@ on boot
 
     chown system system /sys/class/thermal/thermal_message/sconfig
 
+    # DT2W
+    chown system system /sys/touchpanel/double_tap
+    chmod 0660 /sys/touchpanel/double_tap
+
 # Stop bootprof
 on property:sys.boot_completed=1
 #Power Manager
