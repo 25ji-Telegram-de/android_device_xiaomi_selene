@@ -181,6 +181,9 @@ ODM_MANIFEST_SKUS += \
 
 ODM_MANIFEST_EOS_FILES := $(DEVICE_PATH)/manifest_eos.xml
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
