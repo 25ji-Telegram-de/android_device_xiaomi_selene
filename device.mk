@@ -527,6 +527,9 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd@1.2 \
     android.hardware.wifi.hostapd@1.2.vendor
 
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service-lazy.selene
+
 # SKU-specific properties
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/sku_props/build_ss_vendor.prop:$(TARGET_COPY_OUT_VENDOR)/build_ss_vendor.prop \
