@@ -69,6 +69,10 @@ function blob_fixup {
         vendor/lib64/libwifi-hal-mtk.so)
             "$PATCHELF" --set-soname libwifi-hal-mtk.so "${2}"
             ;;
+        vendor/lib*/libaalservice.so|\
+        vendor/lib*/libcam.utils.sensorprovider.so)
+            "$PATCHELF" --add-needed "libshim_sensors.so" "$2"
+            ;;
     esac
 }
 
