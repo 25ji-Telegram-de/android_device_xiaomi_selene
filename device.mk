@@ -153,6 +153,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
+    libdrm \
     libdrm.vendor \
     libvulkan
 
@@ -194,7 +195,8 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0 \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-impl.recovery \
-    android.hardware.health@2.1-service
+    android.hardware.health@2.1-service \
+    android.hardware.health-V1-ndk \
 
 # IMS
 PRODUCT_BOOT_JARS += \
@@ -394,7 +396,6 @@ PRODUCT_PACKAGES += \
     libshim_audio \
     libshim_beanpod \
     libshim_sensors \
-    libshim_showlogo \
     libshim_vtservice \
     libshim_watermark
                               

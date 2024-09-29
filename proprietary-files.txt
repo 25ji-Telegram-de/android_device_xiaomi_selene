@@ -184,11 +184,11 @@ vendor/etc/camera/watermark_font_2300_3199.dat
 # Camera Utils - from selene-user 13 TP1A.220624.014 V14.0.6.0.TKUMIXM release-keys
 vendor/lib64/libmtkcam_stdutils.so|0b24a831af03d46e0258cae0d4788a7ee1ff1bbc|257526b9e61463f3e2ccce6844b22db6aa19bb23
 
-# Charger
-bin/kpoc_charger
-etc/init/kpoc_charger.rc
-lib/libshowlogo.so
-lib/libsysenv_system.so
+# Charger - from fogorow_g-user 14 UTA34.82-21 82-21 release-keys
+system_ext/bin/kpoc_charger|5f478f64b8cabaac966b553ae535edd0da59088a
+system_ext/etc/init/kpoc_charger.rc|6d68e9c3851b09b50646f2317da813100c05b342
+system_ext/lib64/libshowlogo.so|92aab81f72d65f68f159de1dba378c27b55d1c51
+system_ext/lib64/libsysenv_system.so|63ce85f9c5c4710e4f2cba463b98ed4d8bebdc40
 
 # Consumerir
 vendor/lib/hw/consumerir.mt6768.so
