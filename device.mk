@@ -97,8 +97,9 @@ PRODUCT_PACKAGES += \
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.1-service \
-    android.hardware.boot@1.1-impl.recovery
+    android.hardware.boot@1.2-impl \
+    android.hardware.boot@1.2-impl.recovery \
+    android.hardware.boot@1.2-service
 
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
