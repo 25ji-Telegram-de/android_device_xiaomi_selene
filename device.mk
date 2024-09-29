@@ -409,7 +409,6 @@ PRODUCT_PACKAGES += \
     libshim_audio \
     libshim_beanpod \
     libshim_sensors \
-    libshim_vtservice \
     libshim_watermark
                               
 # Soong namespaces
