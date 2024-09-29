@@ -112,6 +112,7 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbluetooth_audio_session \
+    libunwindstack.vendor \
     android.hardware.bluetooth.a2dp@1.0 \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.a2dp@1.0.vendor
@@ -135,6 +136,11 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6 \
     android.hardware.camera.device@3.6.vendor
 
+PRODUCT_PACKAGES += \
+    libcamera_metadata.vendor \
+    libexif.vendor \
+    libpng.vendor
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
@@ -156,6 +162,9 @@ PRODUCT_PACKAGES += \
     libdrm \
     libdrm.vendor \
     libvulkan
+
+PRODUCT_PACKAGES += \
+    libutilscallstack.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -189,6 +198,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0.vendor \
     android.hardware.gnss@2.1 \
     android.hardware.gnss@2.1.vendor
+
+PRODUCT_PACKAGES += \
+    libcurl.vendor \
+    libexpat.vendor
 
 # Health
 PRODUCT_PACKAGES += \
