@@ -71,6 +71,10 @@ function blob_fixup {
         system_ext/lib64/libsource.so)
             grep -q "libui_shim.so" "${2}" || "${PATCHELF}" --add-needed "libui_shim.so" "${2}"
             ;;
+        vendor/lib64/libmtkcam_featurepolicy.so)
+            # evaluateCaptureConfiguration()
+            sed -i "s/\x34\xE8\x87\x40\xB9/\x34\x28\x02\x80\x52/" "$2"
+            ;;
     esac
 }
 
