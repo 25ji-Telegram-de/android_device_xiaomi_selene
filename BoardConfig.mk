@@ -26,6 +26,7 @@ AB_OTA_PARTITIONS := \
     dtbo \
     product \
     system \
+    system_ext \
     vendor \
     vbmeta \
     vbmeta_system
@@ -113,6 +114,7 @@ BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # Reserve space for gapps install
@@ -132,12 +134,13 @@ BOARD_MAIN_SIZE := 7514095616
 BOARD_MAIN_PARTITION_LIST := \
     product \
     system \
+    system_ext \
     vendor
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
-BOARD_AVB_VBMETA_SYSTEM := system
+BOARD_AVB_VBMETA_SYSTEM := system system_ext
 BOARD_AVB_VBMETA_SYSTEM_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
 BOARD_AVB_VBMETA_SYSTEM_ALGORITHM := SHA256_RSA2048
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
@@ -148,6 +151,7 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Non-SAR on Android 10 means the presence of stage-1 ramdisk
+TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_PRODUCT := product
 BOARD_ROOT_EXTRA_FOLDERS += metadata
