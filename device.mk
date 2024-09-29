@@ -524,7 +524,8 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlaySelene \
     wpa_supplicant \
     hostapd \
-    android.hardware.wifi-service
+    android.hardware.wifi-service \
+    libnetutils.vendor
 
 # SKU-specific properties
 PRODUCT_COPY_FILES += \
