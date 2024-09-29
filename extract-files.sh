@@ -68,6 +68,9 @@ function blob_fixup {
         vendor/lib*/libcam.utils.sensorprovider.so)
             "$PATCHELF" --add-needed "libshim_sensors.so" "$2"
             ;;
+        system_ext/lib64/libsource.so)
+            grep -q "libui_shim.so" "${2}" || "${PATCHELF}" --add-needed "libui_shim.so" "${2}"
+            ;;
     esac
 }
 
