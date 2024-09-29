@@ -111,7 +111,7 @@ PRODUCT_PACKAGES += \
 
 # Biometrics
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.selene
+    android.hardware.biometrics.fingerprint@2.1-service
 
 # Bluetooth
 PRODUCT_PACKAGES += \
