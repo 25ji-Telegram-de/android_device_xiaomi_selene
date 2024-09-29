@@ -520,8 +520,4 @@ PRODUCT_COPY_FILES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.1-service.selene \
-    android.hardware.usb@1.0 \
-    android.hardware.usb@1.0.vendor \
-    android.hardware.usb@1.1 \
-    android.hardware.usb@1.1.vendor
+    android.hardware.usb-service.mediatek-legacy
