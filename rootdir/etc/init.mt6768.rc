@@ -185,14 +185,6 @@ on post-fs
 #tp ito
     chown system system /proc/tp_selftest
     chmod 0664 /proc/tp_selftest
-    
-    
-
-# Support A/B feature for EMMC and UFS boot region
-    symlink /dev/block/sda /dev/block/mmcblk0boot0
-    symlink /dev/block/sdb /dev/block/mmcblk0boot1
-    symlink /dev/block/mmcblk0boot0 /dev/block/platform/bootdevice/by-name/preloader_a
-    symlink /dev/block/mmcblk0boot1 /dev/block/platform/bootdevice/by-name/preloader_b
 
 on late-fs
     write /proc/bootprof "INIT:late-fs"
