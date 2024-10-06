@@ -537,6 +537,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
+    libbinder-v32 \
     libutils-v32 \
     libui-v32
 
