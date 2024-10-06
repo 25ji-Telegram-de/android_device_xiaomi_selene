@@ -211,6 +211,7 @@ PRODUCT_PACKAGES += \
     libpower.vendor \
     libcurl.vendor \
     libion.vendor \
+    librpcril.vendor \
     libssl.vendor \
     libui.vendor
 
