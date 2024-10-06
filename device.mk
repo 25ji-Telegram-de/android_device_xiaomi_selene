@@ -58,6 +58,7 @@ PRODUCT_PACKAGES += \
     libnbaio_mono \
     libaudiofoundation \
     libaudiofoundation.vendor \
+    libaudioroute.vendor
 
 PRODUCT_PACKAGES += \
     MtkInCallService
@@ -149,6 +150,11 @@ PRODUCT_PACKAGES += \
     libexif.vendor \
     libpng.vendor
 
+PRODUCT_PACKAGES += \
+    libcamera_metadata.vendor \
+    libutilscallstack.vendor \
+    libpng.vendor
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
@@ -196,6 +202,14 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor
 
 PRODUCT_PACKAGES += \
+    libprocessgroup.vendor \
+    libnetutils.vendor \
+    libjsoncpp.vendor \
+    libsqlite.vendor \
+    libpower.vendor \
+    libcurl.vendor \
+    libion.vendor \
+    libssl.vendor \
     libui.vendor
 
 # Gatekeeper
