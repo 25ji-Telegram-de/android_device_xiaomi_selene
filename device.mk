@@ -203,6 +203,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor
 
 PRODUCT_PACKAGES += \
+    libgralloctypes.vendor
     libprocessgroup.vendor \
     libnetutils.vendor \
     libjsoncpp.vendor \
