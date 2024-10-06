@@ -205,7 +205,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libstagefright_softomx_plugin.vendor \
-    libgralloctypes.vendor
+    libgralloctypes.vendor \
     libprocessgroup.vendor \
     libnetutils.vendor \
     libjsoncpp.vendor \
