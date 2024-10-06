@@ -834,6 +834,8 @@ vendor/lib64/hw/power.default.so
 vendor/lib/libvsim.so
 
 # Sensors
+vendor/lib/libsensorndkbridge.so:vendor/lib/libsensorndkbridge-v30.so
+vendor/lib64/libsensorndkbridge.so:vendor/lib64/libsensorndkbridge-v30.so
 vendor/lib64/hw/sensors.mt6768.so
 vendor/lib64/libsensor_custom.so
 
