@@ -40,6 +40,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
     android.hardware.audio@6.0-util.vendor \
     android.hardware.audio.common@6.0-util \
+    android.hardware.audio.sounddose-vendor-impl \
     android.hardware.bluetooth.audio-impl \
     audio.bluetooth.default \
     audio.r_submix.default \
