@@ -32,6 +32,7 @@ function blob_fixup {
         vendor/bin/hw/camerahalserver)
             "$PATCHELF" --replace-needed "libutils.so" "libutils-v30.so" "$2"
             "${PATCHELF}" --replace-needed "libbinder.so" "libbinder-v32.so" "${2}"
+            "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
             ;;
         vendor/lib64/libmtkcam_stdutils.so) \
         vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so)
