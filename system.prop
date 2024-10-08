@@ -64,6 +64,7 @@ sys.ipo.pwrdncap=2
 persist.sys.binary_xml=false
 
 # Radio
+persist.sys.radio.force_lte_ca=true
 persist.internalAntenna.enable=true
 
 # USB
