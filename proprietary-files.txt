@@ -849,42 +849,40 @@ vendor/bin/SoterProvisioningTool
 vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
 vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
 
-# Thermal
-vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
-vendor/bin/mi_thermald
-vendor/bin/thermal
-vendor/bin/thermalloadalgod
-vendor/bin/thermal_manager
-vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc
-vendor/etc/init/init.thermal.rc
-vendor/etc/init/init.thermalloadalgod.rc
-vendor/etc/init/init.thermal_manager.rc
-vendor/etc/.tp/.ht120.mtc
-vendor/etc/.tp/.thermal_policy_00
-vendor/etc/.tp/.thermal_policy_03
-vendor/etc/.tp/.thermal_policy_05
-vendor/etc/.tp/.thermal_policy_08
-vendor/etc/.tp/thermal.conf
-vendor/etc/.tp/thermal.off.conf
-vendor/etc/thermal-arvr.conf
-vendor/etc/thermal-camera.conf
-vendor/etc/thermal-chg-only.conf
-vendor/etc/thermal-map.conf
-vendor/etc/thermal-mgame.conf
-vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
-vendor/etc/thermal-phone.conf
-vendor/etc/thermal-tgame.conf
-vendor/etc/thermal-video.conf
-vendor/etc/thermal-youtube.conf
-vendor/etc/thermald-devices.conf
-vendor/lib/libthermalalgo.so
-vendor/lib/hw/android.hardware.thermal@2.0-impl.so
-vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
-
-# Thermal-Hardware
-vendor/lib/hw/thermal.mt6768.so
-vendor/lib64/hw/thermal.mt6768.so
+# Thermal - from fire-user 14 UP1A.231005.007 V816.0.7.0.UMXMIXM release-keys
+vendor/bin/hw/android.hardware.thermal@2.0-service.mtk|ed7d1bebe229b40679e9f0ba200e718a77bb97bc
+vendor/bin/mi_thermald|e5498b8e8cf498d851777978e5392764c08b6bfc
+vendor/bin/thermal|9e4b28a8d48b695d4959d6e8f43b6222b349f26d
+vendor/bin/thermalloadalgod|04b651ff72c619f311b7d3e5e954287da634f612
+vendor/bin/thermal_manager|4b1c82e310ca3db719be68bb94cf3beb32297c1d
+vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc|33cf45d2caa425f89598bd407802303ac0705686
+vendor/etc/init/init.thermal.rc|1abba9d02cab6cd9fe26d51afa18feaf1b2cca1b
+vendor/etc/init/init.thermalloadalgod.rc|12b447ff275bd1a15a18166f09a0ce5310d7fc1c
+vendor/etc/init/init.thermal_manager.rc|94ecbaa9d5f84a6693427e4b8df00eeb6b8e4e39
+vendor/etc/.tp/.ht120.mtc|85ae18b373f398c3cbc3b6630d23c2e93899bce8
+vendor/etc/.tp/.thermal_policy_00|ff38bf0d5806ce64803afad250833f05b93c1ab6
+vendor/etc/.tp/.thermal_policy_03|ee321ba568b91c564c3ff70be4864eb620cc8cfd
+vendor/etc/.tp/.thermal_policy_05|5ec9985e792ce2d2d252df9d567b34705528c173
+vendor/etc/.tp/.thermal_policy_08|9d60c11d5a42824d18c62a84948d380eb5c361f1
+vendor/etc/.tp/thermal.conf|804b37518934b1859c1f9fc7283d10e3b39c97f0
+vendor/etc/.tp/thermal.off.conf|7727598d16e94dcffe367874b1e08585dbf1e8de
+vendor/etc/thermal-arvr.conf|561ea3686292ca257e4443c502ba60b83c2362fa
+vendor/etc/thermal-camera.conf|720a8940a5461ea056e4cf8a87622f7c98e91d18
+vendor/etc/thermal-chg-only.conf|35d9864cc9435ce28a68874ea349d1efb1274547
+vendor/etc/thermal-map.conf|a20e66befff790ec8cdf6ecddcd083c54a3cd446
+vendor/etc/thermal-mgame.conf|1dc5381d8cac20b375784af312e78daa4e388ab4
+vendor/etc/thermal-nolimits.conf|85d9c608e3c88a5891638a4119e371da70289845
+vendor/etc/thermal-normal.conf|f0065bf343721426e0223a0a8307d5df7df07aea
+vendor/etc/thermal-phone.conf|4f06e3c87a62ed2bea85877050351a36edbb299e
+vendor/etc/thermal-tgame.conf|04d1ccce19b43c521b9d76d69e3385b5ea45b9c4
+vendor/etc/thermal-video.conf|de3a2fc5db282003040a82b02cb157d7e088a083
+vendor/etc/thermal-youtube.conf|003545b265c96c40c46278728ddfaae546c78245
+vendor/etc/thermald-devices.conf|a5363812020f5d780acfe0b5c4a9cf48c3f0a553
+vendor/lib/hw/thermal.mt6768.so|cdb80556c8788b6e7de6f9160e17f0745be5e6c4
+vendor/lib/libthermalalgo.so|007ed21bc4be7227aaec84544baae806c2eda5d5
+vendor/lib/hw/android.hardware.thermal@2.0-impl.so|1138531d44cb99e7806ebb02bd73ce45fd8cb6fc
+vendor/lib64/hw/android.hardware.thermal@2.0-impl.so|403b9576050d7ebe28746e551456f044a28c7c2d
+vendor/lib64/hw/thermal.mt6768.so|4a337aa364b2c1b38a5e7696fd80ebdc3b473163
 
 # UDF - from selene-user 13 TP1A.220624.014 V14.0.6.0.TKUMIXM release-keys
 vendor/lib/libudf.so|1140b526ffc76980fa7ad0a6a5dabb0cadeb1b37
