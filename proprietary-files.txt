@@ -884,9 +884,9 @@ vendor/lib/hw/android.hardware.thermal@2.0-impl.so|1138531d44cb99e7806ebb02bd73c
 vendor/lib64/hw/android.hardware.thermal@2.0-impl.so|403b9576050d7ebe28746e551456f044a28c7c2d
 vendor/lib64/hw/thermal.mt6768.so|4a337aa364b2c1b38a5e7696fd80ebdc3b473163
 
-# UDF - from selene-user 13 TP1A.220624.014 V14.0.6.0.TKUMIXM release-keys
-vendor/lib/libudf.so|1140b526ffc76980fa7ad0a6a5dabb0cadeb1b37
-vendor/lib64/libudf.so|257526b9e61463f3e2ccce6844b22db6aa19bb23
+# UDF - from a06xx-user 14 UP1A.231005.007 A065FXXU1AXG8 release-keys
+vendor/lib/libudf.so|b5ed2172cf761f04896a68c93b58ae87f407a3e9
+vendor/lib64/libudf.so|8e966d8cb6cb584d6e15f1d7baccd5b4eb7539ce
 
 # WiFi
 vendor/bin/hostapd_cli
