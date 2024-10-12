@@ -472,8 +472,17 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
     $(DEVICE_PATH)/overlay-lineage
+
+PRODUCT_PACKAGES += \
+    BluetoothOverlaySelene \
+    CarrierConfigOverlaySelene \
+    FrameworksResOverlaySelene \
+    SettingsOverlaySelene \
+    SystemUIOverlaySelene \
+    TelephonyOverlaySelene \
+    TetheringConfigOverlaySelene \
+    WifiOverlaySelene \
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(DEVICE_PATH)/overlay-lineage
@@ -577,9 +586,6 @@ PRODUCT_PACKAGES += \
     libwifi-hal-wrapper
 
 PRODUCT_PACKAGES += \
-    WifiOverlay \
-    TetheringConfigOverlay \
-    CarrierConfigOverlaySelene \
     wpa_supplicant \
     hostapd \
     android.hardware.wifi-service \
