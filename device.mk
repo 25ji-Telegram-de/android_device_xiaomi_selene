@@ -409,7 +409,10 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0 \
     android.hardware.radio.deprecated@1.0.vendor
-    
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/rsc,$(TARGET_COPY_OUT_VENDOR)/etc/rsc)
+  
 # Recovery
 PRODUCT_PACKAGES += \
     init.recovery.mt6768.rc
