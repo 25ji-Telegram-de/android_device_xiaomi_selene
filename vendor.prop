@@ -25,6 +25,12 @@ ro.lmk.use_minfree_levels=false
 ro.lmk.thrashing_limit_decay=50
 ro.lmk.downgrade_pressure=30
 
+# Power Saving
+power.saving.mode=1
+pm.sleep_mode=1 
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
+
 # RAM
 ro.config.fha_enable=true
 ro.sys.fw.bg_apps_limit=32
