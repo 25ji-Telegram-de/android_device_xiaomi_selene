@@ -18,6 +18,9 @@ bluetooth.profile.pan.nap.enabled=true
 bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
 
+# FM Radio
+ro.vendor.builtin_fm_antenna_support=1
+
 # LMKD
 ro.lmk.kill_heaviest_task=true
 ro.lmk.use_psi=true
