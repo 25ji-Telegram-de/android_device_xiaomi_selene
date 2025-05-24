@@ -777,8 +777,6 @@ lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
 system_ext/lib/vendor.mediatek.hardware.mtkradioex@1.0.so
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
-system_ext/lib64/vendor.mediatek.hardware.dmc@1.2.so
 system_ext/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
@@ -859,11 +857,9 @@ vendor/lib/libmtkproperty.so
 vendor/lib/libmtkrillog.so
 vendor/lib/libmtkshifter_vendor.so
 vendor/lib/libmtksysutils.so
-vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib/vendor.mediatek.hardware.dfps@1.0.so
 vendor/lib/vendor.mediatek.hardware.gpu@1.0.so
 vendor/lib/vendor.mediatek.hardware.keyinstall@1.0.so
-vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib/vendor.mediatek.hardware.mms@1.2.so
@@ -971,12 +967,8 @@ vendor/lib64/libmtksysutils.so
 vendor/lib64/libmtktinyxml.so
 vendor/lib64/libmtkutils.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
-vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
 vendor/lib64/vendor.mediatek.hardware.dfps@1.0.so
-vendor/lib64/vendor.mediatek.hardware.dmc@1.0.so
-vendor/lib64/vendor.mediatek.hardware.dmc@1.1.so
-vendor/lib64/vendor.mediatek.hardware.dmc@1.2.so
 vendor/lib64/vendor.mediatek.hardware.dplanner@2.0.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
@@ -985,7 +977,6 @@ vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so
 vendor/lib64/vendor.mediatek.hardware.gpu@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keyinstall@1.0.so
 vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
-vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.2.so
@@ -1046,7 +1037,6 @@ vendor/bin/chattr
 vendor/bin/dconfig
 vendor/bin/devmem
 vendor/bin/dexecutor
-vendor/bin/dmc_core
 vendor/bin/doeapp-memtester
 vendor/bin/doeapp-sat
 vendor/bin/dtc_vendor
@@ -1096,8 +1086,6 @@ vendor/bin/libccu_ov8856_ofilm_front_mipi_raw.pm
 vendor/bin/libccu_s5kjn1_ofilm_main_mipi_raw.dm
 vendor/bin/libccu_s5kjn1_ofilm_main_mipi_raw.pm
 vendor/bin/lsattr
-vendor/bin/md_monitor
-vendor/bin/md_monitor_ctrl
 vendor/bin/meta_tst
 vendor/bin/misc_writer
 vendor/bin/mmc_ffu
@@ -1180,7 +1168,6 @@ vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
 vendor/etc/init/boringssl_self_test.rc
 vendor/etc/init/camerahalserver.rc
-vendor/etc/init/dmc_core.rc
 vendor/etc/init/em_hidl_user.rc
 vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
@@ -1208,7 +1195,6 @@ vendor/etc/init/init.wod.rc
 vendor/etc/init/init_connectivity.rc
 vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/lbs_hidl_service.rc
-vendor/etc/init/md_monitor.rc
 vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 vendor/etc/init/microtrust.rc
 vendor/etc/init/mtk_agpsd_p.rc
@@ -1455,7 +1441,6 @@ vendor/lib/libaal_mtk.so
 vendor/lib/libaalservice.so
 vendor/lib/libaedv.so
 vendor/lib/libakm.so
-vendor/lib/libapmonitor_vendor.so
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
 vendor/lib/libaurisysdemo.so
@@ -1627,7 +1612,6 @@ vendor/lib64/libalLDC.so
 vendor/lib64/libalhLDC.so
 vendor/lib64/libaltek_ldc_preview.so
 vendor/lib64/libanc_dc_base.so
-vendor/lib64/libapmonitor_vendor.so
 vendor/lib64/libasn1c_core.so
 vendor/lib64/libasn1c_mapi.so
 vendor/lib64/libaurisysdemo.so
