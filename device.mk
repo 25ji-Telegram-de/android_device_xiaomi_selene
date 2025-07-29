@@ -265,7 +265,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 # RRO Overlays
 PRODUCT_PACKAGES += \
     SettingsProviderOverlaySelene \
-    CarrierConfigOverlay \
+    CarrierConfigOverlaySelene \
     SystemUIOverlaySelene \
     DialerOverlaySelene \
     TelephonyOverlaySelene \
