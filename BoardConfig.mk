@@ -192,6 +192,3 @@ BOARD_VNDK_VERSION := current
 # Wifi
 BOARD_HOSTAPD_DRIVER := NL80211
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
-
-# Inherit the proprietary files
-include vendor/xiaomi/selene/BoardConfigVendor.mk
