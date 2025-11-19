@@ -186,6 +186,3 @@ BOARD_VNDK_VERSION := current
 
 # Wifi
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
-
-# Inherit the proprietary files
-include vendor/xiaomi/selene/BoardConfigVendor.mk
