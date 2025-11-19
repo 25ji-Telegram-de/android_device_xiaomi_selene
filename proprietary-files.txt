@@ -1048,6 +1048,7 @@ vendor/bin/mmc_ffu
 vendor/bin/mmc_ffu_hynix
 vendor/bin/mmc_ffu_micron
 vendor/bin/mnld
+vendor/bin/mtd@1.2
 vendor/bin/mtk_agpsd
 vendor/bin/netdagent
 vendor/bin/netdc
@@ -1103,10 +1104,14 @@ vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.bip.rc
+vendor/etc/init/init.bt_drv.rc
 vendor/etc/init/init.cccifsd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
 vendor/etc/init/init.md_apps.rc
+vendor/etc/init/init.factory.rc
+vendor/etc/init/init.fmradio_drv.rc
+vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/init.udc_lib.rc
 vendor/etc/init/init.volte_imcb.rc
 vendor/etc/init/init.volte_imsm_93.rc
