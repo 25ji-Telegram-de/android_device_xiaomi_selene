@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Island notification -->
+    <dimen name="island_margin_top">128.0px</dimen>
+</resources>
